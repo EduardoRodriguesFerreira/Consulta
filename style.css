@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(57, 43, 145);
+}
+ol{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+button{
+ 
+    display: flex;
+    width: 200px;
+    height: 35px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+#Cabeçalho{
+    display: flex;
+    background-color: rgb(131, 15, 247);
+    text-align: center;
+}
+#Cabeçalho li {
+    display: flex;
+    margin: 5px;
+    display: flex;
+    list-style: none;
+   
+}
+
+#Cabeçalho li a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+  
+}
+
+#Cabeçalho li a:hover{
+    color: bisque;
+}
+#dados{
+display: flex;
+justify-content: center;
+width: 250px;
+height: 50px;
+margin-top: 5px;
+margin-left: 20px;
+border-radius: 10px;
+}
+.image{
+    display: flex;
+    width: 100px;
+    margin-top: 20px;
+}
+.Titulo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botão{
+    display: flex;
+    justify-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(6, 6, 112);
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-top: 15px;
+}
+
+
+.valores {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 20px;
+    letter-spacing: 2px;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.valores thead{
+    display: flex;
+    justify-content: center;
+   color: aquamarine;
+    
+}
+
+.valores thead tr th{
+    margin-left: 15px;
+    font-size: 20px;
+    padding-left:70px;
+
+
+}
+.valores tbody{
+    display: block;
+   align-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.valores tbody  td{
+
+font-size: 20px;
+padding-left: 95px;
+
+}
+
+.valores thead tr{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+.valores tbody tr{
+     font-size: 25px;
+}
+.tipo{
+    margin-left: 55px;
+}
+.data{
+    margin-left: 45px;
+}
+
+.botao2{
+    visibility:hidden;
+}
+
+#pesquisar {
+    display: flex;
+ 
+    float: right;
+    margin-left: -140px;
+}

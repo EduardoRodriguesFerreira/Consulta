@@ -1,0 +1,112 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Orçamento Pessoal</title>
+   
+</head>
+
+<body onload="carregaListaDespesas()">
+    
+<header id="Cabeçalho">
+    <div>
+        <img src="imagem/US-dollar-icon.png" alt="Dinheiro" class="image">
+    </div>
+   
+    <ol>
+        <li><a href="index.html">Cadastro |</a></li>
+        <li><a href="consulta.html">Consulta</a></li>
+    </ol>
+
+</header>
+    <div class="Titulo">
+        <h1>Consulta</h1>
+    </div>
+<article>
+
+    <div id="dados">
+           <select name="Ano" id="dados" class="ano">
+            <option value="">Ano</option>
+            <option value="1">2023</option>
+           </select>
+
+           <select name="Mês" id="dados" class="mes">
+            <option value="">Mês</option>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+           </select>
+
+           <input type="text" id="dados" placeholder="Dia" class="dia">
+
+
+           <select name="Ano" id="dados" class="tipo">
+            <option value="">Tipo</option>
+            <option value="1">Alimentação</option>
+            <option value="2">Educação</option>
+            <option value="3">Lazer</option>
+            <option value="4">Saúde</option>
+            <option value="5">Transporte</option>
+           </select>
+    </div>
+
+</article>
+
+
+<article>
+
+    <div id="dados">
+        
+
+           <input type="text" id="dados" placeholder="Descrição" class="descriçao">
+
+           <input type="text" id="dados" placeholder="Valor" class="valor">
+            
+
+           <button type="button" class="botão botao2" id="Adicionar" >PESQUISAR</button>
+           <button type="button" class="botão" id="Pesquisar">PESQUISAR</button>
+           
+    </div>
+</article>
+
+    <hr>
+    <table class="valores">
+        <thead>
+            <tr class=".data">
+                <th>Data</th>
+            </tr>
+
+            <tr class="tipo">
+                <th>Tipo</th>
+            </tr>
+
+            <tr>
+                <th>descrição</th>
+              
+            </tr>
+
+            <tr>
+                <th>valor</th>
+            </tr>
+        </thead>
+        
+          
+          <tbody id="val">
+
+          </tbody>
+    </table>
+    
+    <script src="index.js"></script>
+</body>
+</html>
